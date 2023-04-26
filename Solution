@@ -1,0 +1,14 @@
+To add call system to xv6, we must go through the following steps:
+1. We must add the function name to h.syscall.
+2. Next, we must add the prototype in h.defs.
+3.h.user, we must act as above.
+4.c.sysproc In this function, we must retrun our main function.
+5. Now we have to give this func to S.user.
+6. Now we need to add our main function that wants to print the processes here, since a strct is needed
+To make it, we need to add this struct in h.proc and by making a list of this info_proc in c.proc, we can get data
+Take the necessary from ptable and print it using cptable. We have given the name of this function run.
+7. Now we have to check this call system, for this we have to create a file for ourselves to give the desired output.
+We have to make several children using fork and call the parent system call.
+8. Then we need to add this file to the makefile.
+9. Then we have to run this file in the operating system.
+which gives us output like this:
