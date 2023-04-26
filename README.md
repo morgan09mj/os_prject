@@ -1,4 +1,4 @@
-# os_prject
+# Operating Systems project (XV6)
 Operating Systems  project
 As your assignment, you will add a new system call to xv6. This system call will
 return the running processes (RUNNING & RUNNABLE) in the form of an array of
